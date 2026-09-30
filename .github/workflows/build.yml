@@ -18,7 +18,7 @@ jobs:
 
     - name: Visual Studio Projesi Derle (x64)
       run: |
-        msbuild dll.sln /p:Configuration=Release /p:Platform=x64
+        msbuild dll.sln /p:Configuration=Release /p:Platform=x32
 
     - name: DLL Dosyasini Paketle
       uses: actions/upload-artifact@v4

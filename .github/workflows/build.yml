@@ -5,6 +5,9 @@ on:
     branches: [ "main", "master" ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
@@ -13,14 +16,31 @@ jobs:
     - name: Kodlari Cek
       uses: actions/checkout@v4
 
+    - name: JDK Kurulumu (JNI header'lari icin)
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'zulu'
+        java-version: '17'
+
     - name: MSBuild Kurulumu
       uses: microsoft/setup-msbuild@v2
 
-    - name: Visual Studio Projesi Derle (x64)
+    - name: Visual Studio Projesi Derle (x64 - C++20)
+      env:
+        CL: '/std:c++20 /I"${{ env.JAVA_HOME }}\include" /I"${{ env.JAVA_HOME }}\include\win32" /I"${{ github.workspace }}" /I"${{ github.workspace }}\hitdelay" /I"${{ github.workspace }}\hitdelay\src" /I"${{ github.workspace }}\hitdelay\src\imgui" /I"${{ github.workspace }}\hitdelay\src\gui" /I"${{ github.workspace }}\hitdelay\src\maths" /I"${{ github.workspace }}\hitdelay\src\ext" /I"${{ github.workspace }}\hitdelay\src\vendor" /I"${{ github.workspace }}\Hitdelay" /I"${{ github.workspace }}\Hitdelay\src" /I"${{ github.workspace }}\Hitdelay\src\imgui"'
       run: |
-        msbuild dll.sln /p:Configuration=Release /p:Platform=x64
+        msbuild dll.sln /p:Configuration=Release /p:Platform=x64 /p:LanguageStandard=stdcpp20
 
-    - name: DLL Dosyasini Paketle
+    - name: Doğrudan DLL Olarak Yayınla (Release)
+      uses: softprops/action-gh-release@v2
+      with:
+        files: '**/*.dll'
+        tag_name: v1.0.${{ github.run_number }}
+        name: 'Surum v1.0.${{ github.run_number }}'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: DLL Dosyasini Artifact Olarak Yukle
       uses: actions/upload-artifact@v4
       with:
         name: Derlenmis-DLL

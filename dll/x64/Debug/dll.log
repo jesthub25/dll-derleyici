@@ -1,0 +1,230 @@
+﻿  cache.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/cache/cache.cpp' kaynak dosyası derleniyor)
+  
+  gui.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\gui\gui.hpp(6,14): error C7525: satır içi değişkenler en az '/std:c++17' gerektirir
+  ('hitdelay/src/gui/gui.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_impl_opengl3.h(29,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  ('hitdelay/src/gui/gui.cpp' kaynak dosyası derleniyor)
+  
+  hde64.cpp
+  imgui.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui.cpp(974,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_demo.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_demo.cpp(102,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_draw.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_draw.cpp(34,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_impl_opengl3.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_impl_opengl3.cpp(114,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_impl_win32.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_impl_win32.cpp(76,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_tables.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_tables.cpp(198,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  imgui_widgets.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\imgui\imgui_widgets.cpp(41,10): error C1083: içerme dosyası açılamıyor: 'imgui.h': No such file or directory
+  jvmti.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\jvmti\jvmti.hpp(2,10): error C1083: içerme dosyası açılamıyor: 'jvmti.h': No such file or directory
+  ('hitdelay/src/jvmti/jvmti.cpp' kaynak dosyası derleniyor)
+  
+  main.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/main.cpp' kaynak dosyası derleniyor)
+  
+  FriendManager.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\manager\FriendManager.hpp(6,34): error C7525: satır içi değişkenler en az '/std:c++17' gerektirir
+  ('hitdelay/src/manager/FriendManager.cpp' kaynak dosyası derleniyor)
+  
+  maths.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\concepts(12): warning STL4038: The contents of <concepts> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,24): error C2039: 'floating_point': bir 'std' üyesi değil
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\chrono(45,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,39): error C2144: sözdizimi hatası: 'auto' öncesinde ';' olmalıdır
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,24): error C7525: satır içi değişkenler en az '/std:c++17' gerektirir
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,24): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,24): error C2737: 'maths::floating_point': constexpr nesnesinin başlatılması gerekiyor
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,60): error C2039: 'floating_point': bir 'std' üyesi değil
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\chrono(45,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,75): error C2062: 'auto' türü beklenmiyor
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(23,2): error C2143: sözdizimi hatası: ';' eksik ('{' öncesinde)
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(23,2): error C2447: '{': işlev üstbilgisi eksik (eski tarzda biçimsel liste mi?)
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,24): error C2039: 'floating_point': bir 'std' üyesi değil
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\chrono(45,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,39): error C2144: sözdizimi hatası: 'auto' öncesinde ';' olmalıdır
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,24): error C7525: satır içi değişkenler en az '/std:c++17' gerektirir
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,24): error C4430: tür belirticisi eksik - int varsayıldı. Not: C++ varsayılan int desteği içermez
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,24): error C2737: 'maths::floating_point': constexpr nesnesinin başlatılması gerekiyor
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,24): error C2086: 'const int maths::floating_point': yeniden tanımlama
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(22,24):
+      'maths::floating_point' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,60): error C2039: 'floating_point': bir 'std' üyesi değil
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\chrono(45,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(28,75): error C2062: 'auto' türü beklenmiyor
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(29,2): error C2143: sözdizimi hatası: ';' eksik ('{' öncesinde)
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.hpp(29,2): error C2447: '{': işlev üstbilgisi eksik (eski tarzda biçimsel liste mi?)
+  ('hitdelay/src/maths/maths.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(18,17): error C2440: '<function-style-cast>': 'initializer list' - 'maths::vector3d' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(18,17):
+      'maths::vector3d::vector3d': işlev 3 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(18,17):
+          '(double, double, double)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(58,20): error C3861: 'to_degrees': tanımlayıcı bulunamadı
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(62,44): error C2039: 'numbers': bir 'std' üyesi değil
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\cmath(925,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(62,44): error C3083: 'numbers': '::' işlecinin sonundaki simge bir tür olmalıdır
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(62,53): error C2039: 'pi': bir 'std' üyesi değil
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\cmath(925,1):
+      'std' bildirimine bakın
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(62,53): error C2065: 'pi': bildirimi yapılmamış tanımlayıcı
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(63,12): error C3861: 'to_degrees': tanımlayıcı bulunamadı
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(66,15): error C2440: '<function-style-cast>': 'initializer list' - 'maths::angles' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(66,15):
+      'maths::angles::angles': işlev 2 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(66,15):
+          '(float, float)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(73,19): error C3861: 'to_radians': tanımlayıcı bulunamadı
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(74,21): error C3861: 'to_radians': tanımlayıcı bulunamadı
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(82,15): error C2440: '<function-style-cast>': 'initializer list' - 'maths::angles' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(82,15):
+      'maths::angles::angles': işlev 2 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(82,15):
+          '(float, float)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(87,15): error C2440: '<function-style-cast>': 'initializer list' - 'maths::angles' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(87,15):
+      'maths::angles::angles': işlev 2 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(87,15):
+          '(float, float)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(92,15): error C2440: '<function-style-cast>': 'initializer list' - 'maths::angles' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(92,15):
+      'maths::angles::angles': işlev 2 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(92,15):
+          '(float, float)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(97,15): error C2440: '<function-style-cast>': 'initializer list' - 'maths::angles' dönüşümü yapılamıyor
+      C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(97,15):
+      'maths::angles::angles': işlev 2 bağımsız değişken almıyor
+          C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\maths\maths.cpp(97,15):
+          '(float, float)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+  aimassist.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/aimassist.cpp' kaynak dosyası derleniyor)
+  
+  antimissclick.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/antimissclick.cpp' kaynak dosyası derleniyor)
+  
+  autoclick.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/autoclick.cpp' kaynak dosyası derleniyor)
+  
+  autototem.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/autototem.cpp' kaynak dosyası derleniyor)
+  
+  auto_sprint.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/auto_sprint.cpp' kaynak dosyası derleniyor)
+  
+  esp.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\modules\esp.cpp(5,10): error C1083: içerme dosyası açılamıyor: 'glm/glm.hpp': No such file or directory
+  Kod Üretiliyor...
+  Derleniyor...
+  fullbright.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/fullbright.cpp' kaynak dosyası derleniyor)
+  
+  glow_esp.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/glow_esp.cpp' kaynak dosyası derleniyor)
+  
+  hitbox.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/hitbox.cpp' kaynak dosyası derleniyor)
+  
+  jump_reset.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/jump_reset.cpp' kaynak dosyası derleniyor)
+  
+  middle_click_friend.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\manager\FriendManager.hpp(6,34): error C7525: satır içi değişkenler en az '/std:c++17' gerektirir
+  ('hitdelay/src/modules/middle_click_friend.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/middle_click_friend.cpp' kaynak dosyası derleniyor)
+  
+  modules.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/modules.cpp' kaynak dosyası derleniyor)
+  
+  multihand.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/multihand.cpp' kaynak dosyası derleniyor)
+  
+  nojumpdelay.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/nojumpdelay.cpp' kaynak dosyası derleniyor)
+  
+  sprint_reset.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/sprint_reset.cpp' kaynak dosyası derleniyor)
+  
+  staticheight.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/staticheight.cpp' kaynak dosyası derleniyor)
+  
+  triggerbot.cpp
+C:\Users\gul12\OneDrive\Masaüstü\HitDelay-Client-Source-main\hitdelay\src\meta_jni.hpp(8,10): error C1083: içerme dosyası açılamıyor: 'jni.h': No such file or directory
+  ('hitdelay/src/modules/triggerbot.cpp' kaynak dosyası derleniyor)
+  
+  Kod Üretiliyor...

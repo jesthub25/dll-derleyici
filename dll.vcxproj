@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <ProjectGuid>{4EAC530F-77BD-3408-D636-F16AFA6C081F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;DLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="hitdelay\src\cache\cache.cpp" />
+    <ClCompile Include="hitdelay\src\gui\gui.cpp" />
+    <ClCompile Include="hitdelay\src\hook\hde\hde64.cpp" />
+    <ClCompile Include="hitdelay\src\hook\mem\mem.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_demo.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_draw.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_tables.cpp" />
+    <ClCompile Include="hitdelay\src\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="hitdelay\src\jvmti\jvmti.cpp" />
+    <ClCompile Include="hitdelay\src\main.cpp" />
+    <ClCompile Include="hitdelay\src\manager\FriendManager.cpp" />
+    <ClCompile Include="hitdelay\src\maths\maths.cpp" />
+    <ClCompile Include="hitdelay\src\modules\aimassist.cpp" />
+    <ClCompile Include="hitdelay\src\modules\antimissclick.cpp" />
+    <ClCompile Include="hitdelay\src\modules\autoclick.cpp" />
+    <ClCompile Include="hitdelay\src\modules\autototem.cpp" />
+    <ClCompile Include="hitdelay\src\modules\auto_sprint.cpp" />
+    <ClCompile Include="hitdelay\src\modules\esp.cpp" />
+    <ClCompile Include="hitdelay\src\modules\fullbright.cpp" />
+    <ClCompile Include="hitdelay\src\modules\glow_esp.cpp" />
+    <ClCompile Include="hitdelay\src\modules\hitbox.cpp" />
+    <ClCompile Include="hitdelay\src\modules\jump_reset.cpp" />
+    <ClCompile Include="hitdelay\src\modules\middle_click_friend.cpp" />
+    <ClCompile Include="hitdelay\src\modules\modules.cpp" />
+    <ClCompile Include="hitdelay\src\modules\multihand.cpp" />
+    <ClCompile Include="hitdelay\src\modules\nojumpdelay.cpp" />
+    <ClCompile Include="hitdelay\src\modules\sprint_reset.cpp" />
+    <ClCompile Include="hitdelay\src\modules\staticheight.cpp" />
+    <ClCompile Include="hitdelay\src\modules\triggerbot.cpp" />
+    <ClCompile Include="hitdelay\src\utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hitdelay\src\cache\cache.hpp" />
+    <ClInclude Include="hitdelay\src\gui\gui.hpp" />
+    <ClInclude Include="hitdelay\src\hook\hde\hde64.h" />
+    <ClInclude Include="hitdelay\src\hook\hde\table64.h" />
+    <ClInclude Include="hitdelay\src\hook\hook.hpp" />
+    <ClInclude Include="hitdelay\src\hook\mem\mem.hpp" />
+    <ClInclude Include="hitdelay\src\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="hitdelay\src\imgui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="hitdelay\src\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="hitdelay\src\jvmti\jvmti.hpp" />
+    <ClInclude Include="hitdelay\src\manager\FriendManager.hpp" />
+    <ClInclude Include="hitdelay\src\mappings.hpp" />
+    <ClInclude Include="hitdelay\src\maths\math.hpp" />
+    <ClInclude Include="hitdelay\src\maths\maths.hpp" />
+    <ClInclude Include="hitdelay\src\meta_jni.hpp" />
+    <ClInclude Include="hitdelay\src\modules\modules.hpp" />
+    <ClInclude Include="hitdelay\src\utils\utils.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -16,16 +16,9 @@ jobs:
     - name: MSBuild Kurulumu
       uses: microsoft/setup-msbuild@v2
 
-    - name: Visual Studio Projesi Derle (.sln)
+    - name: Visual Studio Projesi Derle (x64)
       run: |
-        msbuild /p:Configuration=Release /p:Platform=x64
-      continue-on-error: true
-
-    - name: CMake Projesi Derle (CMakeLists.txt)
-      run: |
-        cmake -B build -A x64
-        cmake --build build --config Release
-      continue-on-error: true
+        msbuild dll.sln /p:Configuration=Release /p:Platform=x64
 
     - name: DLL Dosyasini Paketle
       uses: actions/upload-artifact@v4
